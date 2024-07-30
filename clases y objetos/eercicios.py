@@ -1,5 +1,9 @@
 #1 
 # Crear clase Persona
+
+#Una clase en Python es un plano o plantilla para crear objetos. 
+# Define un conjunto de atributos y métodos que los objetos creados 
+# a partir de la clase tendrán. Las clases se definen utilizando la palabra clave class.
 class Persona:
     # Crear atributos
     def __init__(self, nombre, edad):
@@ -30,7 +34,8 @@ if __name__ == "__main__":
     persona1.saludar()
     persona1.mostrar_grado()
 
-
+#Un objeto es una instancia de una clase. Los objetos son entidades que tienen atributos y comportamientos definidos por su clase. 
+# Se crean utilizando la clase como una plantilla.
 #2
 
 class Calculadora:
@@ -104,6 +109,10 @@ class Calculadora:
 
     def limpiar_historial(self):
         self.historial.clear()
+
+#La herencia es un mecanismo que permite crear una nueva clase a partir de una clase existente. 
+# La nueva clase, llamada clase derivada o subclase, hereda atributos y
+# métodos de la clase base o superclase, permitiendo reutilizar y extender el código existente.
 
 # Borrar pantalla según sistema operativo
 import os
