@@ -55,7 +55,7 @@ def mostrarMenu():
     print("3 / ACTUALIZAR LIBRO")
     print("4 / ELIMINAR LIBRO")
     print("5 / SALIR")
-       
+
 if __name__ == "__main__":
     while True:
         mostrarMenu()
